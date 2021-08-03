@@ -4,19 +4,22 @@ import Image from "next/image";
 
 export default function ProductFeed({ products }) {
   return (
-    <div className="grid grid-flow-row-dense sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 md:-mt-10 mx-auto">
-     {products.map(({ id, title, price, description, category, image }) => (
-          <Product
-            key={id}
-            id={id}
-            title={title}
-            price={price}
-            description={description}
-            category={category}
-            image={image}
-          />
-        ))}
-    </div>
+    <>
+    </>
+    // <div className="grid grid-flow-row-dense sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 md:-mt-10 mx-auto">
+    //  {products.map(({ id, title, price, description, category, image }) => (
+    //       <Product
+    //         key={id}
+    //         id={id}
+    //         title={title}
+    //         price={price}
+    //         description={description}
+    //         category={category}
+    //         image={image}
+    //       />
+    //     ))}
+    // </div>
+
     // <div className="grid grid-flow-row-dense sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 md:-mt-10 mx-auto">
     //   {products
     //     .slice(0, 4)
