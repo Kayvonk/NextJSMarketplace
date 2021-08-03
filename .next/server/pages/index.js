@@ -4,104 +4,7 @@ exports.id = 405;
 exports.ids = [405];
 exports.modules = {
 
-/***/ 714:
-/***/ (function() {
-
-// import React from "react";
-// import { Carousel } from "react-responsive-carousel";
-// import "react-responsive-carousel/lib/styles/carousel.min.css";
-// import Image from "next/image";
-// function Banner() {
-//   return (
-//     <div className="relative">
-//       <div className="absolute w-full h-10 bg-gradient-to-t from-gray-100 to-transparent bottom-0 z-20" />
-//       <Carousel
-//         autoPlay
-//         infiniteLoop
-//         showStatus={false}
-//         showIndicators={false}
-//         showThumbs={false}
-//         interval={5000}
-//       >
-//         <div>
-//           <img loading="lazy" src="images/electronics.png" alt="ElectronicsBanner" />
-//         </div>
-//         <div>
-//           <img loading="lazy" src="images/music.png" alt="MusicBanner"/>
-//         </div>
-//         <div>
-//           <img loading="lazy" src="images/clothing.png" alt="ClothingBanner"/>
-//         </div>
-//       </Carousel>
-//     </div>
-//   );
-// }
-// export default Banner;
-
-/***/ }),
-
-/***/ 242:
-/***/ (function() {
-
-// import React from "react";
-// import Product from "./Product";
-// import Image from "next/image";
-// export default function ProductFeed({ products }) {
-//   return (
-//        <div className="grid grid-flow-row-dense sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 md:-mt-10 mx-auto">
-//       {products
-//         .slice(0, 4)
-//         .map(({ id, title, price, description, category, image }) => (
-//           <Product
-//             key={id}
-//             id={id}
-//             title={title}
-//             price={price}
-//             description={description}
-//             category={category}
-//             image={image}
-//           />
-//         ))}
-//       <Image
-//         className="col-span-full w-screen"
-//         src="images/adventure.png"
-//         alt="travel-ad"
-//       />
-//       <div className="md:col-span-2">
-//         {products
-//           .slice(4, 5)
-//           .map(({ id, title, price, description, category, image }) => (
-//             <Product
-//               key={id}
-//               id={id}
-//               title={title}
-//               price={price}
-//               description={description}
-//               category={category}
-//               image={image}
-//             />
-//           ))}
-//       </div>
-//       {products
-//         .slice(5, products.length)
-//         .map(({ id, title, price, description, category, image }) => (
-//           <Product
-//             key={id}
-//             id={id}
-//             title={title}
-//             price={price}
-//             description={description}
-//             category={category}
-//             image={image}
-//           />
-//         ))}
-//     </div>
-//   );
-// }
-
-/***/ }),
-
-/***/ 936:
+/***/ 112:
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -119,16 +22,13 @@ var jsx_runtime_ = __webpack_require__(282);
 ;// CONCATENATED MODULE: external "next/head"
 var head_namespaceObject = require("next/head");;
 var head_default = /*#__PURE__*/__webpack_require__.n(head_namespaceObject);
-// EXTERNAL MODULE: ./src/components/Banner.js
-var Banner = __webpack_require__(714);
-var Banner_default = /*#__PURE__*/__webpack_require__.n(Banner);
 // EXTERNAL MODULE: external "react"
 var external_react_ = __webpack_require__(297);
 // EXTERNAL MODULE: ./node_modules/next/image.js
 var next_image = __webpack_require__(675);
 // EXTERNAL MODULE: ./node_modules/@heroicons/react/outline/esm/index.js + 230 modules
 var esm = __webpack_require__(49);
-;// CONCATENATED MODULE: ./src/components/Header.js
+;// CONCATENATED MODULE: ./components/Header.js
 
 
 
@@ -229,10 +129,7 @@ function Header() {
 }
 
 /* harmony default export */ var components_Header = (Header);
-// EXTERNAL MODULE: ./src/components/ProductFeed.js
-var ProductFeed = __webpack_require__(242);
-var ProductFeed_default = /*#__PURE__*/__webpack_require__.n(ProductFeed);
-;// CONCATENATED MODULE: ./src/pages/index.js
+;// CONCATENATED MODULE: ./pages/index.js
 
 
 
@@ -248,12 +145,7 @@ function Home({
       children: /*#__PURE__*/jsx_runtime_.jsx("title", {
         children: " KShop"
       })
-    }), /*#__PURE__*/jsx_runtime_.jsx(components_Header, {}), /*#__PURE__*/(0,jsx_runtime_.jsxs)("main", {
-      className: "max-w-screen-2xl mx-auto",
-      children: [/*#__PURE__*/jsx_runtime_.jsx((Banner_default()), {}), /*#__PURE__*/jsx_runtime_.jsx((ProductFeed_default()), {
-        products: products
-      })]
-    })]
+    }), /*#__PURE__*/jsx_runtime_.jsx(components_Header, {})]
   });
 }
 async function getServerSideProps(context) {
@@ -314,7 +206,7 @@ module.exports = require("react/jsx-runtime");;
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = function(moduleId) { return __webpack_require__(__webpack_require__.s = moduleId); }
-var __webpack_exports__ = __webpack_require__.X(0, [597,383], function() { return __webpack_exec__(936); });
+var __webpack_exports__ = __webpack_require__.X(0, [597,383], function() { return __webpack_exec__(112); });
 module.exports = __webpack_exports__;
 
 })();
