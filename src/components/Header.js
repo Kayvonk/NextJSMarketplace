@@ -17,6 +17,7 @@ function Header() {
             width={150}
             height={60}
             objectFit="contain"
+            alt="KshopLogo"
           />
         </div>
         <div className="hidden sm:flex items-center h-10 rounded-md cursor-pointer flex-grow bg-yellow-400 hover:bg-yellow-500">

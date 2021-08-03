@@ -25,7 +25,7 @@ export default function Product({
       <p className="absolute top-2 right-2 text-xs italic text-gray-400">
         {category}
       </p>
-      <Image src={image} height={200} width={200} objectFit="contain" />
+      <Image src={image} alt={title} height={200} width={200} objectFit="contain" />
       <h4 className="my-3">{title}</h4>
       <div className="flex">
         {Array(rating)
@@ -40,7 +40,7 @@ export default function Product({
       </div>
       {freeShipping && (
         <div className="flex items-center space-x-2 -mt-5">
-          <Image className="w-6" src="images/icons8-free-shipping-48.png" />
+          <Image className="w-6" src="images/icons8-free-shipping-48.png" alt="freeShippingIcon" />
           <p className="text-xs text-gray-500"> FREE Next-day Delivery</p>
         </div>
       )}
