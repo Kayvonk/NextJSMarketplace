@@ -1,5 +1,6 @@
 import React from "react";
 import Product from "./Product";
+import Image from "next/image";
 
 export default function ProductFeed({ products }) {
   return (
@@ -17,7 +18,7 @@ export default function ProductFeed({ products }) {
             image={image}
           />
         ))}
-      <img
+      <Image
         className="col-span-full w-screen"
         src="images/adventure.png"
         alt="travel-ad"

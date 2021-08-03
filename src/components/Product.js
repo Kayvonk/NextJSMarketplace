@@ -40,7 +40,7 @@ export default function Product({
       </div>
       {freeShipping && (
         <div className="flex items-center space-x-2 -mt-5">
-          <img className="w-6" src="images/icons8-free-shipping-48.png" />
+          <Image className="w-6" src="images/icons8-free-shipping-48.png" />
           <p className="text-xs text-gray-500"> FREE Next-day Delivery</p>
         </div>
       )}
