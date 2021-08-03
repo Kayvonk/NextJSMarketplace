@@ -18,14 +18,12 @@ export default function ProductFeed({ products }) {
             image={image}
           />
         ))}
-      <Image
-        layout="fill"
-        objectFit="cover"
+      <img
         className="col-span-full w-screen"
-        src="images/adventure.png"
+        src="https://i.imgur.com/F0ZI80h.png"
         alt="travel-ad"
-      />
-      <div className="md:col-span-2">
+        />
+        <div className="md:col-span-2">
         {products
           .slice(4, 5)
           .map(({ id, title, price, description, category, image }) => (
