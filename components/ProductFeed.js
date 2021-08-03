@@ -19,6 +19,7 @@ export default function ProductFeed({ products }) {
           />
         ))}
       <Image
+        layout="fill" 
         className="col-span-full w-screen"
         src="images/adventure.png"
         alt="travel-ad"
